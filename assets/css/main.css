@@ -145,20 +145,20 @@ body {
 
 
 #altar{
-	margin:0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 	background-color:#0F9;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-#banner{
-	/*width:830px;
-	height:230px;*/
-	background-color:#0F9;
-	/*background-image:url(../../img-altar/ofrenda.png);*/
+  padding: 8%;
 }
 
-#banner img {
-  margin-left: 30%;
+.banner{
+  width: 80%;
+	background-color:#0F9;
+}
+
+.banner img {
+  width: 100%
 }
 
 #pan{
@@ -227,6 +227,7 @@ body {
 	background-image:url(../../img-altar/mole_back.png);
 }
 
+/* Sección Memorama*/
 
 .contenedor {
   background-color: rgb(55, 251, 246);
