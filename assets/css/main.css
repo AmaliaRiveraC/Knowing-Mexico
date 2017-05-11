@@ -136,7 +136,7 @@ body {
 .bloque_ofrenda{
 	width:250px;
 	height:250px;
-	display:inline-block;
+	display: flex;
 	transition:ease 1s;
 	margin-left:2%;
 	cursor:pointer;
@@ -236,7 +236,7 @@ body {
 #juego {
   display: flex;
   align-items: center;;
-  padding: 2.5%;
+  padding: 5%;
 }
 #tablero {
     text-align: center;
